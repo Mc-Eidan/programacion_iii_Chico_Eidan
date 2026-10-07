@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Programación III
 
 ## 👤 Autor
@@ -62,4 +61,3 @@ Librería de JavaScript para construir **interfaces de usuario** mediante compon
 ## 📄 Licencia
 
 Proyecto con fines académicos.
-EOF

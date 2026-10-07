@@ -2,7 +2,7 @@
 
 ## 👤 Autor :
 
-- **Nombre:** Eidan Chico
+- **Nombre:** Eidan Chico Matias Cruz
 - **GitHub:** [Mc-Eidan](https://github.com/Mc-Eidan)
 - **Correo:** mc7669662@gmail.com
 

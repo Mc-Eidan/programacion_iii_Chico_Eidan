@@ -1,7 +1,6 @@
-cat > README.md << 'EOF'
 # Programación III
 
-## 👤 Autor
+## 👤 Autor :
 
 - **Nombre:** Eidan Chico
 - **GitHub:** [Mc-Eidan](https://github.com/Mc-Eidan)
@@ -62,4 +61,3 @@ Librería de JavaScript para construir **interfaces de usuario** mediante compon
 ## 📄 Licencia
 
 Proyecto con fines académicos.
-EOF

@@ -1,6 +1,6 @@
 # Programación III
 
-## 👤 Autor
+## 👤 Autor :
 
 - **Nombre:** Eidan Chico
 - **GitHub:** [Mc-Eidan](https://github.com/Mc-Eidan)

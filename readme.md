@@ -59,9 +59,3 @@ Librería de JavaScript para construir **interfaces de usuario** mediante compon
 ---
 
 ## 📄 Licencia
-
-<<<<<<< HEAD
-Proyecto con fines académicos.
-=======
-Proyecto con fines académicos.
->>>>>>> 47ed9e2b8e6c1729a2f96fddcbccd116753e4358

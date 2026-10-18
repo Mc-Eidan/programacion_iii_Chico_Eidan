@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de renta</title>
+</head>
+<body>
+    <h1>Solicita tu vehículo</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Datos del cliente</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Eidan" required>
+            <br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias de renta</legend>
+            <label for="categoria">Tipo de vehículo:</label>
+            <select id="categoria" name="categoria">
+                <option value="">Selecciona una categoría</option>
+                <option value="compacto">Compacto</option>
+                <option value="familiar">Familiar</option>
+                <option value="suv">SUV</option>
+            </select>
+            <p>Duración estimada:</p>
+            <input type="radio" id="dias" name="duracion" value="dias" checked>
+            <label for="dias">1 a 3 días</label>
+            <input type="radio" id="semana" name="duracion" value="semana">
+            <label for="semana">Una semana o más</label>
+            <p>Servicios adicionales:</p>
+            <input type="checkbox" id="seguro" name="servicios" value="seguro">
+            <label for="seguro">Seguro adicional</label>
+            <br>
+            <input type="checkbox" id="entrega" name="servicios" value="entrega">
+            <label for="entrega">Entrega a domicilio</label>
+        </fieldset>
+
+        <p><label for="comentarios">Comentarios:</label></p>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"
+                  placeholder="Cuéntanos qué necesitas"></textarea>
+        <br><br>
+        <button type="submit">Enviar solicitud</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>

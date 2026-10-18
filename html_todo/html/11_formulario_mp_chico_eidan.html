@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de viaje</title>
+</head>
+<body>
+    <header>
+        <h1>Reserva tu próximo viaje</h1>
+        <p>Completa los datos para preparar tu renta.</p>
+    </header>
+
+    <main>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Detalles de la reserva</legend>
+                <label for="nombre">Nombre del titular:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+                <label for="recogida">Fecha de recogida:</label>
+                <input type="date" id="recogida" name="recogida" required>
+                <br><br>
+                <label for="devolucion">Fecha de devolución:</label>
+                <input type="date" id="devolucion" name="devolucion" required>
+                <br><br>
+                <label for="sucursal">Sucursal:</label>
+                <select id="sucursal" name="sucursal" required>
+                    <option value="">Selecciona una sucursal</option>
+                    <option value="centro">Centro</option>
+                    <option value="aeropuerto">Aeropuerto</option>
+                    <option value="norte">Zona norte</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tipo de vehículo</legend>
+                <input type="radio" id="economico" name="vehiculo" value="economico" required>
+                <label for="economico">Económico</label>
+                <input type="radio" id="familiar" name="vehiculo" value="familiar">
+                <label for="familiar">Familiar</label>
+                <input type="radio" id="suv" name="vehiculo" value="suv">
+                <label for="suv">SUV</label>
+                <br><br>
+                <label for="notas">Notas para la reserva:</label>
+                <br>
+                <textarea id="notas" name="notas" rows="4" cols="40"></textarea>
+            </fieldset>
+
+            <button type="submit">Solicitar reserva</button>
+            <button type="reset">Borrar formulario</button>
+        </form>
+    </main>
+
+    <footer>
+        <small>Rutas y Ruedas - 2026</small>
+    </footer>
+</body>
+</html>

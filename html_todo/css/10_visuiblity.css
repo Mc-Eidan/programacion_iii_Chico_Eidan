@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+header {
+    padding: 20px;
+    background-color: #020617;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px;
+    background-color: #1E293B;
+}
+
+nav a {
+    color: #facc15;
+    margin-right: 20px;
+}
+
+section {
+    min-height: 450px;
+    padding: 30px;
+    border-bottom: 1px solid #64748B;
+}
+
+/* visibility: oculta el elemento pero conserva su espacio */
+.secreta {
+    visibility: hidden;
+}
+
+/* position: relative */
+.caja {
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.especial {
+    position: relative;
+    top: 15px;
+    left: 30px;
+    background-color: green;
+}
+
+.tarjeta-relativa {
+    position: relative;
+    width: 300px;
+    right: 10px;
+    background-color: black;
+    padding: 5px 10px;
+    border: 2px solid red;
+    font-weight: bold;
+    color: yellow;
+}
+
+/* position: absolute (respecto a .tarjeta-relativa) */
+.etiqueta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: yellow;
+}
+
+/* position: fixed */
+.boton-fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

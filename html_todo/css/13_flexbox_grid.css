@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #081020;
+    color: white;
+}
+.contenedor{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background-color: #175033;
+}
+.personaje{
+    padding: 20px;
+    background-color: #2563EB;
+    border: 2px solid gold;
+}
+.consejo{
+    display: grid;
+    background-color: #2563EB;
+    color: white;
+    padding: 20px;
+    background-color: #172033;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.operaciones{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background-color: #172033;
+}
+.operacion{
+    padding: 20px;
+    background-color: #16ca67;
+    border: 2px solid gold;
+}
+.hangar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 130px 90px;
+    gap: 10px;
+    padding: 20px;
+    color: #172033;
+}
+.hangar div {
+    padding: 30px;
+    background-color: green;
+    border: 2px solid gold;
+    text-align: center;
+}
+.flota{
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    color: white;
+    background-color: #172033;
+ }
+.flota div{
+    padding: 20px;
+    background-color: #16ca67;
+    border: 2px solid gold;
+}
+
+.consejo2{
+    display: grid;
+    background-color: #2563EB;
+    color: white;
+    padding: 20px;
+    background-color: #172033;
+    grid-template-columns: repeat(5,1fr);
+}
+.naves{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background-color: #172033;
+}
+.naves div{
+    padding: 20px;
+    background-color: #eb1f1f;
+    border: 2px solid gold;
+}
+.misione{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+
+}
+
+.destacadas{
+    grid-row: span 2;
+    padding: 30px;
+    background-color: #55e2a3 !important;
+    border: 2px solid gold;
+    text-align: center;
+}
+.misione div{
+    padding: 30px;
+    background-color: #eb1f1f;
+    border: 2px solid gold;
+    text-align: center;
+}

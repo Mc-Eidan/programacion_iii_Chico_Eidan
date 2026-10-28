@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducion a Javascript</title>
+    <script>
+        alert('Corre Morty al Inicio de la pagina ');
+        console.log('Saludo desde el Inicio de la pagina');
+    </script>
+</head>
+<body>
+    <h1>Incluir Javascript en documento HTML</h1>
+    <h2>Modo Inline</h2>
+    <button onclick="alert('!Corre , Morty !')">
+        Mostrar Mensaje
+    </button>
+    <input type="text" placeholder="Escribe aquí (mira la consola)" 
+       oninput="console.log('Escribiendo:', this.value);">
+    <input type="text" placeholder="Escribe y sal del cuadro" 
+       onchange="this.style.backgroundColor = 'lightgreen'; alert('Saliste del cursor con el valor: ' + this.value);">
+    <script src="01_incluir.js"></script>
+    
+</body>
+</html>

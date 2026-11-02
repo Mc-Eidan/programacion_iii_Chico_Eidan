@@ -2,7 +2,7 @@
 
 ## 👤 Autor :
 
-- **Nombre:** Eidan Chico
+- **Nombre:** Eidan Chico Matias Cruz
 - **GitHub:** [Mc-Eidan](https://github.com/Mc-Eidan)
 - **Correo:** mc7669662@gmail.com
 
@@ -59,5 +59,3 @@ Librería de JavaScript para construir **interfaces de usuario** mediante compon
 ---
 
 ## 📄 Licencia
-
-Proyecto con fines académicos.

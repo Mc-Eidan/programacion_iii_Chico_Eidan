@@ -10,10 +10,9 @@ abrirPortal();
 abrirPortal();
 
 
-function pilotoNave(Nombre) {
+function pilotoNave(nombre) {
     console.log("El piloto " + nombre + " esta a bordo de la nave. ");
-
-}     
+}
 pilotoNave("Rick");
 pilotoNave("Morty");
 
@@ -75,5 +74,3 @@ let cristalesrecolectados = 10;
 let misionesrealizadas =6;
 let totalCristalesRecolectados = totalCristales(cristalesrecolectados);
 console.log("Total de cristales recolectados: " + totalCristalesRecolectados);
-
-

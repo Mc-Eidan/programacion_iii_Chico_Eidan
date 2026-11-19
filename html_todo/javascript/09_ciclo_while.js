@@ -66,7 +66,7 @@ let cristales = [5,10,15,20,25];
 let objetivo = 150;
 let energiatotal = 0;
 let indice = 0;
-while (i < cristales.length) {
+while (indice < cristales.length) {
     let cristal = cristales[indice];
     energiatotal += cristal;
     indice++;
@@ -81,7 +81,6 @@ while (i < cristales.length) {
     }
 }
 console.log("Energía total recolectada: " + energiatotal);
-
 
 
 

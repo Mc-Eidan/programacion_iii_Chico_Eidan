@@ -22,7 +22,7 @@ console.log("nave de rick", nave)
 
 console.log("agregar una nueva propiedad a la nave de rick");
 nave.modelo = "Nave espacial X-2000";
-console.log = ("Modelo de la nave:" + nave.modelo);
+console.log("Modelo de la nave:" + nave.modelo);
 nave["capacidadPasajeros"] = 5;
 console.log("capacidad pasajeros:" + nave ["capacidadPasajeros"]);
 console.log("nave de rick", nave)

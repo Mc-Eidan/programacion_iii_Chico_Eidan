@@ -1,0 +1,33 @@
+.esenario{
+    position: absolute;
+    height: 280px;
+}
+.caja{
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.azul{
+    top: 80px;
+    left: 20px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.verde{
+    top: 100px;
+    left: 80px;
+    background-color: green;
+    z-index: 2;
+}
+
+.rojo{
+    top: 140px;
+    left: 140px;
+    background-color: red;
+    z-index: 3;
+}

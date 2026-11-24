@@ -1,0 +1,16 @@
+.personaje{
+    display: inline;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.luke {
+    background-color: blue;
+}
+.yoda{
+    background-color: green;
+}
+.vader{
+    background-color: red;
+}

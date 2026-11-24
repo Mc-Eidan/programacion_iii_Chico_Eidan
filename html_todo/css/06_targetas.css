@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(48, 46, 46);
+}
+h1 {
+    color: yellow;
+}
+main{
+    padding: 20px;
+}
+h2{
+    color: skyblue;
+}
+.targeta h3  {
+    margin-top: 0;
+    color: yellow;
+}
+.targeta{
+    width: 100%;
+    max-width: 350px;
+    min-height: 100px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: black;
+    border: 3px solid yellow;
+    border-radius: 15px;
+}
+.jedi{
+    border-color: green;
+}
+.sith{
+    border-color: red;
+}
+footer{
+    background-color: rgb(53, 51, 51);
+    padding:  15px;
+    text-align: center;
+}
+

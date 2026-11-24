@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portada h1 {
+    font-size: 5vw;
+    color: #FACC15;
+}
+
+.portada p {
+    font-size: 2vw;
+    color: #FACC15;
+}
+
+.bienvenida {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.historia{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 15px;
+}
+.historia h1{
+    font :2.6rem;
+}
+.historia p{
+    font-family: 1rem;
+    line-height: 1.6 ;
+}

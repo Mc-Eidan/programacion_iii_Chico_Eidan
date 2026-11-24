@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script src="06_crud_arreglo.js" defer></script> <title>Crud_arreglo</title> </head>
+
+<body> <h1>Registro Interdimensional</h1>
+
+<h2 id="tituloFormulario">Registro personal</h2>
+
+<form id="formulario">
+
+    <input type="text" id="nombre" placeholder="Nombre del personaje">
+
+    <select id="dimension">
+        <option value="C-137">C-137</option>
+        <option value="C-131">C-131</option>
+        <option value="C-500">C-500</option>
+    </select>
+
+    <select id="estado">
+        <option value="Vivo">Vivo</option>
+        <option value="Muerto">Muerto</option>
+        <option value="Desconocido">Desconocido</option>
+    </select>
+
+    <button type="submit" id="guardar">Agregar</button>
+    <button type="button" id="cancelar">Cancelar</button>
+    
+
+</form>
+
+<h2>Personajes Registrados</h2>
+
+<h2>Cantidad: <span id="cantidad">0</span></h2>
+
+<div id="contenedor"></div>
+
+
+</body>
+
+</html>

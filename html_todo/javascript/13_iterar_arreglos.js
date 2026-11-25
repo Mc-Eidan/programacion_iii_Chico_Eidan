@@ -26,7 +26,7 @@ console.log("----------------------------------------");
 let personajes = [
     {id: 1, nombre:"Rick", energia:99, edad:70},
     {id: 2, nombre:"Morty", energia:80, edad:14},
-    {id: 3, nombre:"Alisson", energia:100, edad:18},
+    {id: 3, nombre:"Eidan", energia:100, edad:18},
 ];
 for (let personaje of personajes){
     console.log("ID:",personaje.id);
